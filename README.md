@@ -113,3 +113,10 @@ This repo exists to provide a **clear, centralized guide** for Ubuntu users stru
 This documentation is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 The Howdy software itself is under its own license (see the [official Howdy repo](https://github.com/boltgolt/howdy) for details).
+
+## 🔍 Search Keywords
+This guide helps fix:
+- howdy install error on Ubuntu
+- howdy installation guide for Ubuntu 24.04
+- howdy camera not found issue
+- how to setup face unlock with howdy
