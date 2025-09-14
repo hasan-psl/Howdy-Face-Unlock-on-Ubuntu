@@ -50,10 +50,13 @@ sudo howdy config
 ```
 
 
-  #### 2. Find this line:
-  ``` device_path = ```
-    ##### Change it to your IR camera device, for example:
+  #### 2. Find this line: ``` device_path = ```
+
+  
+
+   ##### Now, change it to your IR camera device path, for example:
   ``` device_path = /dev/video2 ```
+
 
   
   #### 3. To discover your camera path, run:
@@ -62,12 +65,15 @@ v4l2-ctl --list-devices
 ```
 
 
-  ##### If v4l2-ctl is missing, install it:
+
+   ##### If v4l2-ctl is missing, install it:
   ```
 sudo apt install v4l-utils
 ```
   👉 Start testing from `/dev/video0`, `/dev/video1`, etc. until you find the working one.
-  Example: on my laptop, the IR camera was at /dev/video2.
+  **Example:** on my laptop, the IR camera was at `/dev/video2`.
+
+
 
 
 
