@@ -85,8 +85,10 @@ sudo nano /etc/pam.d/gdm-password
 ```
 
 
-  #### 2. Add this line above `@include common-auth`:
-  ``` auth    sufficient      pam_python.so /lib/security/howdy/Howdy.py ```
+  #### 2. Add this 👇🏻 line above `@include common-auth`:
+  ```
+auth    sufficient      pam_python.so /lib/security/howdy/Howdy.py
+```
   > Move text input cursor with arrow keys.
 
   > To save the file, use ```Ctrl```+```O```. Press ```Enter``` to confirm the file name.
