@@ -66,7 +66,7 @@ v4l2-ctl --list-devices
   ```
 sudo apt install v4l-utils
 ```
-  👉 Start testing from /dev/video0, /dev/video1, etc. until you find the working one.
+  👉 Start testing from `/dev/video0`, `/dev/video1`, etc. until you find the working one.
   Example: on my laptop, the IR camera was at /dev/video2.
 
 
